@@ -1,0 +1,22 @@
+{
+  "name": "todolist-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang Huynh Vo",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.529.1",
+    "@aws-sdk/lib-dynamodb": "^3.529.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
