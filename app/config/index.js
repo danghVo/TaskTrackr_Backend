@@ -1,9 +1,9 @@
 const config = {
     app: {
-        port: process.env.port || 3000,
+        port: 5000,
     },
     db: {
-        uri: process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/todolist",
+        uri: "mongodb://127.0.0.1:27017/todolist",
     }
 };
 
